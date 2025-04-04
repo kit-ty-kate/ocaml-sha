@@ -31,8 +31,7 @@
 interface than the MD5 digest included in the OCaml standard library.
 It's currently providing SHA1, SHA256 and SHA512 hash functions.")
  (depends
-  (ocaml (>= 4.02))
-  (stdlib-shims (>= 0.3.0))
+  (ocaml (>= 4.07))
   (ounit2 :with-test)))
 
 (generate_opam_files true)
